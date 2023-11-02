@@ -9,7 +9,7 @@ const Sequelize = require('sequelize');
 
 //const sequelize = new Sequelize('mysql://parfait:parfait:80/advance_db');
 
-const sequelize = new Sequelize('advance_db', 'parfait', 'parfait', {
+const sequelize = new Sequelize('nodejs_db', 'parfait', 'parfait', {
   host: 'localhost',
   dialect: 'mysql',
 });
